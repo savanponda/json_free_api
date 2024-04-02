@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import StudentForm from './calculator';
 import App from './App';
+import Sum from './calc';
+import Calculator from './calculatorfull';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <StudentForm /> */}
+    {/* <Sum/> */}
+    <Calculator/>
   </React.StrictMode>
 );
 
